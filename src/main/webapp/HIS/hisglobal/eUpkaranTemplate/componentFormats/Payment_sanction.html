@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="/HIS/hisglobal/eUpkaranTemplate/dist/css/adminlte.min.css">
+</head>
+<body>
+
+<div style="letter-spacing: 1px;">
+<style type="text/css">
+.table td, .table th{
+	padding: 2px;
+	border: none;
+}
+</style>
+<table class='table' style="width: 100%">
+<tbody>
+
+<tr>
+   <td  style="width:75%;">#refNo# </td>
+   <td  style="width:50%;text-align: left">Dated : #date#</td>   
+</tr>
+<tr>
+   <td  colspan="4" style="text-decoration: underline;font-weight: bold;text-align: center;"><p><b> Payment Sanction Order/Invoice - #paymentSanctionOrder/InvoiceNo#</b></p></td>   
+</tr>
+
+</tbody>
+</table>
+
+<table class='table' style="width: 100%">
+<tbody>
+
+<tr>
+   <td colspan="4" style="width:10%;text-align: left;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A sanction for payment of Rs. #amount# (In words - #amount# Rupees Only)
+is heareby accorded against the Supply Order Number #orderNo# dated #date# for supply of "#equipmentName#" of 
+quantity 1 Nos. by #supplierAddress# as per the details given below :-   </td>
+</tr>
+</tbody>
+</table>
+
+<table class='table' style="width: 100%">
+<tbody>
+ <tr>
+   <td  style="font-weight: bold;text-align: left;"><br><h5><b>Installation/Delivery Details :- </b></h5></td>
+</tr>
+
+</tbody>
+</table>
+
+<table style="width: 100%;length:50%;font-size:11px;margin-top: 10px;" class='tbldatavo2'>
+<thead>
+	<tr >
+	<th style="border:1px solid;vertical-align: top; width:5%;text-align: center;background:#dee2e6" >Sr.No</th>
+	<th style="border:1px solid;vertical-align: top; width:15%;text-align: center;background:#dee2e6">Consignee </th>
+	<th style="border:1px solid;vertical-align: top;width:10%;text-align: center;background:#dee2e6">Invoice No. & Date</th>
+	<th style="border:1px solid;vertical-align: top;width:10%;text-align: center;background:#dee2e6">Quantity received</th>
+	<th style="border:1px solid;vertical-align: top;width:10%;text-align: center;background:#dee2e6">Stipulate Delivery / installation Date</th>
+	<th style="border:1px solid;vertical-align: top;width:10%;text-align: center;background:#dee2e6">Actual Delivery Date</th>
+	<th style="border:1px solid;vertical-align: top;width:10%;text-align: center;background:#dee2e6">Actual Installation Date</th>
+	<th style="border:1px solid;vertical-align: top;width:10%;text-align: center;background:#dee2e6">Delay Period</th>
+	<th style="border:1px solid;vertical-align: top;width:10%;text-align: center;background:#dee2e6">Stock Entry Page No. & Date</th>
+	</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid;vertical-align: top;text-align: center;">#sr.No#</td>
+<td style="border:1px solid;vertical-align: top;text-align: center">#consignee#</td>
+<td style="border:1px solid;vertical-align: top;text-align: center">#invoiceNo.# & #date#</td>
+<td style="border:1px solid;vertical-align: top;text-align: center;padding-right:5px">#quantityReceived#</td>
+<td style="border:1px solid;vertical-align: top;text-align: center;padding-right:5px">#stipulateDelivery# / #installationDate#</td>
+<td style="border:1px solid;vertical-align: top;text-align: center">#actualDeliveryDate#</td>
+<td style="border:1px solid;vertical-align: top;text-align: center">#actualInstallationDate#</td>
+<td style="border:1px solid;vertical-align: top;text-align: center;">#delayPeriod#</td>
+<td style="border:1px solid;vertical-align: top;text-align: center">#stockEntryPageNo.# & #date#</td>
+</tr>
+
+</tbody>
+
+</table>
+
+<table class='table' style="width: 100%">
+<tbody>
+ <tr>
+   <td  style="font-weight: bold;text-align: left;"><br><h5><b>Payment Details :- </b></h5></td>
+</tr>
+
+</tbody>
+</table>
+
+<table style="width: 100%;length:50%;font-size:11px;margin-top: 10px;" class='tbldatavo2'>
+<thead>
+	<tr >
+	<th style="border:1px solid;vertical-align: top; width:5%;text-align: center;background:#dee2e6" >Sr.No</th>
+	<th style="border:1px solid;vertical-align: top; width:15%;text-align: center;background:#dee2e6">Invoice No. & Date </th>
+	<th style="border:1px solid;vertical-align: top;width:10%;text-align: center;background:#dee2e6">Base Amount</th>
+	<th style="border:1px solid;vertical-align: top;width:10%;text-align: center;background:#dee2e6">SGST Amount</th>
+	<th style="border:1px solid;vertical-align: top;width:10%;text-align: center;background:#dee2e6">CGST Amount</th>
+	<th style="border:1px solid;vertical-align: top;width:10%;text-align: center;background:#dee2e6">Total Amount (Inc. GST)</th>
+	<th style="border:1px solid;vertical-align: top;width:10%;text-align: center;background:#dee2e6">TDS Amount</th>
+	<th style="border:1px solid;vertical-align: top;width:10%;text-align: center;background:#dee2e6">L.D.Charges</th>
+	<th style="border:1px solid;vertical-align: top;width:10%;text-align: center;background:#dee2e6">Payable Amount</th>
+	</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid;vertical-align: top;text-align: center;">#sr.No#</td>
+<td style="border:1px solid;vertical-align: top;text-align: center">#invoiceNo.# & #date#</td>
+<td style="border:1px solid;vertical-align: top;text-align: center">#baseAmount#</td>
+<td style="border:1px solid;vertical-align: top;text-align: center;padding-right:5px">#sGSTAmount#</td>
+<td style="border:1px solid;vertical-align: top;text-align: center;padding-right:5px">#cGSTAmount#</td>
+<td style="border:1px solid;vertical-align: top;text-align: center">#totalAmount(Inc.GST)#</td>
+<td style="border:1px solid;vertical-align: top;text-align: center">#tDSAmount#</td>
+<td style="border:1px solid;vertical-align: top;text-align: center;">#l.D.Charges# </td>
+<td style="border:1px solid;vertical-align: top;text-align: center">#payableAmount#</td>
+</tr>
+
+<tr>
+
+<td colspan="2"style="border:1px solid;vertical-align: top;text-align: right"><b>Grand Total(Round OFF)</b> </td>
+<td style="border:1px solid;vertical-align: top;text-align: center"><b>#baseAmount#</b></td>
+<td style="border:1px solid;vertical-align: top;text-align: center;padding-right:5px"><b>#sGSTAmount#</b></td>
+<td style="border:1px solid;vertical-align: top;text-align: center;padding-right:5px"><b>#cGSTAmount#</b></td>
+<td style="border:1px solid;vertical-align: top;text-align: center"><b>#totalAmount(Inc.GST)#</b></td>
+<td style="border:1px solid;vertical-align: top;text-align: center"><b>#tDSAmount#</b></td>
+<td style="border:1px solid;vertical-align: top;text-align: center;"><b>#l.D.Charges# </b> </td>
+<td style="border:1px solid;vertical-align: top;text-align: center"><b>#payableAmount#</b></td>
+</tr>
+
+</tbody>
+
+</table>
+
+<table class='table' style="width: 100%">
+<tbody>
+ <tr>
+   <td  style="font-weight: bold;text-align: left;"><br><h5>Description of Adjustable Amount received to RMSC : </h5></td>
+</tr>
+
+</tbody>
+</table>
+
+<table style="width: 100%;length:50%;font-size:11px;margin-top: 10px;" class='tbldatavo2'>
+<thead>
+	<tr >
+	<th style="border-bottom:1px solid;vertical-align: top; width:30%;text-align: left" >PO Ordered Quantity (In Nos.): </th>
+	<td style="border-bottom:1px solid;vertical-align: top; width:10%;text-align: left">#pOOrderedQuantity# </td>
+	<th style="border-bottom:1px solid;vertical-align: top;width:10%;text-align: left">SGST Amount @ 6%:  </th>
+	<td style="border-bottom:1px solid;vertical-align: top;width:10%;text-align: left">#sGSTAmount@6%:#</td>
+
+	</tr>
+</thead>
+<tbody>
+<tr>
+<th style="border-bottom:1px solid;vertical-align: top;text-align: left;">Previous Payment Sanction & Quantity: </th>
+<td style="border-bottom:1px solid;vertical-align: top;text-align: left">#previousPaymentSanction&Quantity#</td>
+<th style="border-bottom:1px solid;vertical-align: top;text-align: left">CGST Amount @ 6%: </th>
+<td style="border-bottom:1px solid;vertical-align: top;text-align: left;padding-right:5px">#cGSTAmount@6%#</td>
+
+</tr>
+
+<tr>
+<td style="border-bottom:1px solid;vertical-align: top;text-align: left"><b>Proposed Quantity:</b> </td>
+<td style="border-bottom:1px solid;vertical-align: top;text-align: left">#proposedQuantity# Nos.</td>
+<td style="border-bottom:1px solid;vertical-align: top;text-align: left;padding-right:5px"><b>Total GST Amount @ 12%:</b></td>
+<td style="border-bottom:1px solid;vertical-align: top;text-align: left;padding-right:5px">#totalGSTAmount@12%#</td>
+</tr>
+
+<tr>
+<td style="border-bottom:1px solid;vertical-align: top;text-align: left"><b>Basic Amount with RMSC Surcharge @ 5%:</b> </td>
+<td style="border-bottom:1px solid;vertical-align: top;text-align: left">basicAmountwithRMSCSurcharge@5%</td>
+<td style="border-bottom:1px solid;vertical-align: top;text-align: left;padding-right:5px"><b>Total Adjustable Amount: </b></td>
+<td style="border-bottom:1px solid;vertical-align: top;text-align: left;padding-right:5px">#totalAdjustableAmount#</td>
+</tr>
+
+</tbody>
+
+</table><br>
+
+
+<table class='table' style="width: 100%">
+<tbody>
+ <tr>
+   <td  style="font-weight: bold;text-align: left;"><br><h5>Firm's Bank Details : </h5></td>
+</tr>
+
+</tbody>
+</table>
+
+<table style="width: 100%;length:50%;font-size:11px;margin-top: 10px;" class='tbldatavo2'>
+<thead>
+	<tr >
+	<th style="border:1px solid;vertical-align: top; width:30%;text-align: left" >Bank Name: </th>
+	<td style="border:1px solid;vertical-align: top; width:10%;text-align: left">#bankName#  </td>
+	<th style="border:1px solid;vertical-align: top;width:10%;text-align: left">IFSC Code: </th>
+	<td style="border:1px solid;vertical-align: top;width:10%;text-align: left">#iFSCCode#</td>
+
+	</tr>
+</thead>
+<tbody>
+<tr>
+<th style="border:1px solid;vertical-align: top;text-align: left;">Branch Name & Address:</th>
+<td style="border:1px solid;vertical-align: top;text-align: left">#branchName&Address#</td>
+<th style="border:1px solid;vertical-align: top;text-align: left">PAN: </th>
+<td style="border:1px solid;vertical-align: top;text-align: left;padding-right:5px">#pAN:#</td>
+
+</tr>
+
+<tr>
+
+<td style="border:1px solid;vertical-align: top;text-align: left"><b>Account Number:</b> </td>
+<td style="border:1px solid;vertical-align: top;text-align: left">#accountNumber#</td>
+<td style="border:1px solid;vertical-align: top;text-align: left;padding-right:5px"><b>GSTIN/UIN:</b></td>
+<td style="border:1px solid;vertical-align: top;text-align: left;padding-right:5px">#gSTIN/UIN#</td>
+
+</tr>
+
+</tbody>
+
+</table><br><br>
+
+<table class='table' style="width: 100%">
+<tbody>
+
+<tr>
+   <td colspan="4" style="width:10%;text-align: left;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Supplies are inspected by the concerned consignee and submitted satisfactory report to RMSC. This expenditure (issued 
+under Letter no. <b>#letterNo#</b> dated: <b>#date#</b> of <b>"#address#"</b>) of 
+<b>Rs. #amount# (In words - #amount# Rupees Only)</b> is to be booked in Fund 
+provided by Own Fund amounting <b>rs.#amount#</b> through Cheque/DD Number deposited in RMSCL Through RTGS dated: #date# deposited in RMSCL. This sannction is being issued after examination of payments by Expenditure Director (Finance) RMSC 
+and bears and approval of M.D. RMSCL. This sanction shall also be treated as invoice for tax purposes.</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<table class='table' style="width: 100%">
+<tbody>
+
+<tr>
+   <td  style="width:75%;">NO.: F-8( ) (Signature) <br>Store Keeper/Officer</td>
+     
+</tr>
+<tr>
+   <td  style="text-align: right;"><b>Executive Director (EPM)</b><br>RMSCL, Jaipur<br><br></td>  
+</tr>
+</tbody>
+</table>
+<hr> 
+
+<table class='table' style="width: 100%">
+<tbody>
+
+<tr>
+   <td  style="width:75%;">#refNo# </td>
+   <td  style="width:50%;text-align: left">Dated : #date#</td>   
+</tr>
+
+</tbody>
+</table>
+<table class='table' style="width: 100%">
+<tbody>
+ <tr>
+   <td  style="font-weight: bold;text-align: left;"><br><br><b>Copy forwarded to the following for information and necessary action:-</b></td>
+</tr>
+</tbody>
+</table>
+
+<table class='table' style="width: 100%">
+<tbody>
+<ol>
+  <li> E.D. (Finance), RMSCL for the payment of Rs. #amount# (In words - #amount# Rupees Only) to #address#.  </li>
+  <li> #address#. </li>
+  <li>Guard File. </li>
+</ol>  
+</tbody>
+</table>
+<table class='table' style="width: 100%">
+<tbody>
+<tr>
+   <td  style="text-align: right;"><b>Executive Director (EPM)</b><br>RMSCL, Jaipur<br><br></td>  
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</body>
+</html>
