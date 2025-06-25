@@ -55,11 +55,11 @@
 		</property>
 
 		<!-- annotated classes -->
-		<property name="annotatedClasses">
+<!-- 		<property name="annotatedClasses">
 			<list>
 				<value>com.sso.model.User</value>
 			</list>
-		</property>
+		</property> -->
 
 	</bean>
 	<bean class="org.springframework.orm.hibernate5.HibernateTemplate"
